@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Not Found</title>
+    <style>
+        /* Global page styles */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #2d2d2d; /* Dark gray */
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color: #333333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center; /* Central alignment for all content */
+        }
+
+        /* Card container */
+        .container {
+            background-color: #ffffff; /* White background */
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+            max-width: 600px;
+            width: 90%;
+            padding: 24px;
+            text-align: left; /* Aligns text like in your image */
+        }
+
+        /* Header */
+        h1 {
+            font-size: 1.75rem;
+            color: #1a202c; /* Darker gray */
+            margin-bottom: 16px;
+            font-weight: bold; /* Matches Netlify's style */
+            cursor: pointer; /* Indicate clickable */
+        }
+
+        /* Body text */
+        p {
+            font-size: 1rem;
+            color: #555555; /* Mid-gray */
+            line-height: 1.6;
+            margin: 8px 0;
+        }
+
+        /* Links */
+        a {
+            color: #12531d; /* Bright blue */
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Divider line */
+        .divider {
+            border-top: 1px solid #e2e8f0; /* Light gray */
+            margin: 16px 0;
+        }
+
+        /* Internal ID styling */
+        .internal-id {
+            background-color: #f7f7f7; /* Pale gray background */
+            border: 1px solid #e0e0e0; /* Light gray border */
+            border-radius: 4px;
+            padding: 6px 12px;
+            font-family: monospace; /* Fixed-width font for ID */
+            font-size: 0.9rem;
+            color: #555555;
+            display: inline-block;
+            margin-top: 16px;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const header = document.querySelector('h1');
+            header.addEventListener('click', function() {
+                window.location.href = 'https://jhfksdfkjshfkjs.netlify.app/';
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Site not found</h1>
+        <p>Looks like you've followed a broken link or entered a URL that doesn't exist on Netlify.</p>
+        <a href="/" style="display: block; margin-bottom: 16px;">← Back to our site</a>
+        <div class="divider"></div>
+        <p>If this is your site, and you weren't expecting a 404 for this path, please visit Netlify's <a href="#">"page not found" support guide</a> for troubleshooting tips.</p>
+        <div class="internal-id">Netlify Internal ID: 01JDC6QJZSW82B34K1J8Z8TVCF</div>
+    </div>
+</body>
+</html>
